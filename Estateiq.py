@@ -13,7 +13,7 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 * { font-family: 'Inter', sans-serif; }
 .stApp { background: #0A0F1E; color: #E8EDF5; }
-#MainMenu, footer, header { visibility: hidden; }
+#MainMenu, footer { visibility: hidden; }
 
 /* Sidebar */
 [data-testid="stSidebar"] { background: #0D1526 !important; border-right: 1px solid #1E2D45; }
