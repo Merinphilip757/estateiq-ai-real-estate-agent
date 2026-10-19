@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 import streamlit as st
 load_dotenv()
 
-st.set_page_config(page_title="EstateIQ", page_icon="🏠", layout="wide")
+st.set_page_config(page_title="EstateIQ", page_icon="🏠", layout="wide", initial_sidebar_state="expanded")
 
 st.markdown("""
 <style>
