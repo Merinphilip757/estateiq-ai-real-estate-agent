@@ -151,7 +151,7 @@ with st.sidebar:
     col1, col2 = st.columns(2)
     bmin = col1.number_input("Min ₹L", 50, 50000, 150, 25)
     bmax = col2.number_input("Max ₹L", 50, 50000, 250, 25)
-    model = st.selectbox("Model", ["llama-3.3-70b-versatile","llama-3.1-8b-instant"])
+    model = st.selectbox("Model", ["llama-3.1-8b-instant","openai/gpt-oss-120b"])
     temp  = st.slider("Creativity", 0.0, 1.0, 0.3, 0.05)
     notes = st.text_area("Special Requirements", placeholder="School nearby, east-facing, sea view…", height=90)
     go    = st.button("🔍 Run AI Team", use_container_width=True)
