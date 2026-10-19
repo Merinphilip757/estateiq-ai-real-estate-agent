@@ -227,8 +227,8 @@ if r.get("report"):
 
     for tab, content, color in zip(tabs, contents, colors):
         with tab:
-            st.markdown(f"<div class='card {color}'><div class='out'>{content}</div></div>", unsafe_allow_html=True)
-
+                  st.markdown(content)
+            
     st.markdown("<div style='height:12px'></div>", unsafe_allow_html=True)
     c1, c2 = st.columns(2)
     with c1:
